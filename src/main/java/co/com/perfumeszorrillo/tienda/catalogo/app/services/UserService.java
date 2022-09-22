@@ -79,7 +79,7 @@ public class UserService {
 
         usuarioNoValido.setEmail(email);
         usuarioNoValido.setPassword(password);
-        usuarioNoValido.setName("NO VALIDO");
+        usuarioNoValido.setName("NO DEFINIDO");
 
         if (!verifyUserExistence){
             return usuarioNoValido;
